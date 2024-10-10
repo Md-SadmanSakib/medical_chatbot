@@ -58,4 +58,19 @@ A A medical chatbot designed to provide guidance and information to users on var
 ```
 
 --------
+## Setup Instructions
+
+To run the code properly, you need to install the required dependencies from the `requirements.txt` file by using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+After installing the dependencies, navigate to the notebooks folder and download the .ipynb file.
+
+For the dataset, you can download it from the following Google Drive link:
+https://drive.google.com/drive/folders/1v6KRSdGiOeqN2Slg9CyqTZWFc07XPNR2?usp=share_link
+
+
 
