@@ -9,7 +9,7 @@ This project not only gives patients suggestions but also stores their past info
 ### Links
 
 - **Google Drive Link**: [Download Dataset](https://drive.google.com/drive/folders/1v6KRSdGiOeqN2Slg9CyqTZWFc07XPNR2?usp=share_link)
-- **GitHub API**: [GitHub Repo](https://github.com/Md-SadmanSakib/nlp_project.git)
+- **GitHub API**: [GitHub API](https://github.com/Md-SadmanSakib/nlp_project.git)
 - **Render API Link**: [Render API](https://nlp-project-kpf8.onrender.com)
 
 
@@ -25,8 +25,6 @@ pip install -r requirements.txt
 
 After installing the dependencies, navigate to the notebooks folder and download the .ipynb file.
 
-For the dataset, you can download it from the following Google Drive link:
-https://drive.google.com/drive/folders/1v6KRSdGiOeqN2Slg9CyqTZWFc07XPNR2?usp=share_link
 
 
 
