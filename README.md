@@ -1,10 +1,11 @@
 # medical_chatbot
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+This project focused on developing an intelligent medical chatbot designed to assist doctors by summarizing patient complaints and medical histories. The motivation behind the project is to address the challenge of handling large volumes of patient data efficiently, reducing the time doctors spend manually reviewing patient notes, and improving the overall patient experience.
 
-A A medical chatbot designed to provide guidance and information to users on various health-related topics. This AI-powered assistant aims to offer preliminary medical advice, help users understand symptoms, and direct them to appropriate healthcare resources when necessary. It serves as a first point of contact for health queries, enhancing accessibility to medical information while emphasizing the importance of professional medical consultation for accurate diagnosis and treatment.
+We implemented a Natural Language Processing pipeline using the T5 model to generate concise summaries of patient problems based on raw input text. The project involved fine-tuning the T5 transformer model on a medical dataset consisting of patient descriptions, complaints, and diagnostic notes. We worked with 250,000 patient descriptions so that the model could understand what patients want when they are sick. The chatbot takes in a patient's problem description, processes it, and returns a summary. Based on that summary, the model calls an API through Streamlit apps to help the patient understand what needs to be done.
+
+This project not only gives patients suggestions but also stores their past information. In our body, one problem is often related to other problems. So, based on the patient's previous issues, the chatbot provides feedback. It not only helps the patient but also assists doctors by informing them of the patient's previous conditions. This comprehensive approach enhances the quality of care and enables more informed decision-making.
+
 
 ## Project Organization
 
